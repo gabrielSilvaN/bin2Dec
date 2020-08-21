@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   errorText: {
-    fontSize: 8,
+    fontSize: 10,
     color: 'red',
   },
   button: {

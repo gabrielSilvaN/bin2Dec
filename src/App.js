@@ -40,7 +40,9 @@ function App() {
 
         <View style={styles.inputBlock}>
           <Text style={styles.label}>Decimal Number</Text>
-          <Text style={styles.input}>{decimalNumber || 'Result Here'}</Text>
+          <Text style={styles.input}>
+            {validInput ? decimalNumber : 'Result Here'}
+          </Text>
         </View>
 
         <TouchableOpacity onPress={convertBinToDec} style={styles.button}>
